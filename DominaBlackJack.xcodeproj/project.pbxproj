@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		758ACE1B25D416D500DB4640 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758ACE1A25D416D500DB4640 /* AppDelegate.swift */; };
+		758ACE1D25D416D500DB4640 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758ACE1C25D416D500DB4640 /* SceneDelegate.swift */; };
+		758ACE1F25D416D500DB4640 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758ACE1E25D416D500DB4640 /* ViewController.swift */; };
+		758ACE2225D416D500DB4640 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758ACE2025D416D500DB4640 /* Main.storyboard */; };
+		758ACE2425D416D900DB4640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 758ACE2325D416D900DB4640 /* Assets.xcassets */; };
+		758ACE2725D416D900DB4640 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758ACE2525D416D900DB4640 /* LaunchScreen.storyboard */; };
+		758ACE3225D416DA00DB4640 /* DominaBlackJackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758ACE3125D416DA00DB4640 /* DominaBlackJackTests.swift */; };
+		758ACE3D25D416DA00DB4640 /* DominaBlackJackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758ACE3C25D416DA00DB4640 /* DominaBlackJackUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		758ACE2E25D416DA00DB4640 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 758ACE0F25D416D500DB4640 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 758ACE1625D416D500DB4640;
+			remoteInfo = DominaBlackJack;
+		};
+		758ACE3925D416DA00DB4640 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 758ACE0F25D416D500DB4640 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 758ACE1625D416D500DB4640;
+			remoteInfo = DominaBlackJack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		758ACE1725D416D500DB4640 /* DominaBlackJack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DominaBlackJack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		758ACE1A25D416D500DB4640 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		758ACE1C25D416D500DB4640 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		758ACE1E25D416D500DB4640 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		758ACE2125D416D500DB4640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		758ACE2325D416D900DB4640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		758ACE2625D416D900DB4640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		758ACE2825D416DA00DB4640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		758ACE2D25D416DA00DB4640 /* DominaBlackJackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DominaBlackJackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		758ACE3125D416DA00DB4640 /* DominaBlackJackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DominaBlackJackTests.swift; sourceTree = "<group>"; };
+		758ACE3325D416DA00DB4640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		758ACE3825D416DA00DB4640 /* DominaBlackJackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DominaBlackJackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		758ACE3C25D416DA00DB4640 /* DominaBlackJackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DominaBlackJackUITests.swift; sourceTree = "<group>"; };
+		758ACE3E25D416DA00DB4640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		758ACE1425D416D500DB4640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		758ACE2A25D416DA00DB4640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		758ACE3525D416DA00DB4640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		758ACE0E25D416D500DB4640 = {
+			isa = PBXGroup;
+			children = (
+				758ACE1925D416D500DB4640 /* DominaBlackJack */,
+				758ACE3025D416DA00DB4640 /* DominaBlackJackTests */,
+				758ACE3B25D416DA00DB4640 /* DominaBlackJackUITests */,
+				758ACE1825D416D500DB4640 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		758ACE1825D416D500DB4640 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				758ACE1725D416D500DB4640 /* DominaBlackJack.app */,
+				758ACE2D25D416DA00DB4640 /* DominaBlackJackTests.xctest */,
+				758ACE3825D416DA00DB4640 /* DominaBlackJackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		758ACE1925D416D500DB4640 /* DominaBlackJack */ = {
+			isa = PBXGroup;
+			children = (
+				758ACE1A25D416D500DB4640 /* AppDelegate.swift */,
+				758ACE1C25D416D500DB4640 /* SceneDelegate.swift */,
+				758ACE1E25D416D500DB4640 /* ViewController.swift */,
+				758ACE2025D416D500DB4640 /* Main.storyboard */,
+				758ACE2325D416D900DB4640 /* Assets.xcassets */,
+				758ACE2525D416D900DB4640 /* LaunchScreen.storyboard */,
+				758ACE2825D416DA00DB4640 /* Info.plist */,
+			);
+			path = DominaBlackJack;
+			sourceTree = "<group>";
+		};
+		758ACE3025D416DA00DB4640 /* DominaBlackJackTests */ = {
+			isa = PBXGroup;
+			children = (
+				758ACE3125D416DA00DB4640 /* DominaBlackJackTests.swift */,
+				758ACE3325D416DA00DB4640 /* Info.plist */,
+			);
+			path = DominaBlackJackTests;
+			sourceTree = "<group>";
+		};
+		758ACE3B25D416DA00DB4640 /* DominaBlackJackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				758ACE3C25D416DA00DB4640 /* DominaBlackJackUITests.swift */,
+				758ACE3E25D416DA00DB4640 /* Info.plist */,
+			);
+			path = DominaBlackJackUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		758ACE1625D416D500DB4640 /* DominaBlackJack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 758ACE4125D416DA00DB4640 /* Build configuration list for PBXNativeTarget "DominaBlackJack" */;
+			buildPhases = (
+				758ACE1325D416D500DB4640 /* Sources */,
+				758ACE1425D416D500DB4640 /* Frameworks */,
+				758ACE1525D416D500DB4640 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DominaBlackJack;
+			productName = DominaBlackJack;
+			productReference = 758ACE1725D416D500DB4640 /* DominaBlackJack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		758ACE2C25D416DA00DB4640 /* DominaBlackJackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 758ACE4425D416DA00DB4640 /* Build configuration list for PBXNativeTarget "DominaBlackJackTests" */;
+			buildPhases = (
+				758ACE2925D416DA00DB4640 /* Sources */,
+				758ACE2A25D416DA00DB4640 /* Frameworks */,
+				758ACE2B25D416DA00DB4640 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				758ACE2F25D416DA00DB4640 /* PBXTargetDependency */,
+			);
+			name = DominaBlackJackTests;
+			productName = DominaBlackJackTests;
+			productReference = 758ACE2D25D416DA00DB4640 /* DominaBlackJackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		758ACE3725D416DA00DB4640 /* DominaBlackJackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 758ACE4725D416DA00DB4640 /* Build configuration list for PBXNativeTarget "DominaBlackJackUITests" */;
+			buildPhases = (
+				758ACE3425D416DA00DB4640 /* Sources */,
+				758ACE3525D416DA00DB4640 /* Frameworks */,
+				758ACE3625D416DA00DB4640 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				758ACE3A25D416DA00DB4640 /* PBXTargetDependency */,
+			);
+			name = DominaBlackJackUITests;
+			productName = DominaBlackJackUITests;
+			productReference = 758ACE3825D416DA00DB4640 /* DominaBlackJackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		758ACE0F25D416D500DB4640 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					758ACE1625D416D500DB4640 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					758ACE2C25D416DA00DB4640 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 758ACE1625D416D500DB4640;
+					};
+					758ACE3725D416DA00DB4640 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 758ACE1625D416D500DB4640;
+					};
+				};
+			};
+			buildConfigurationList = 758ACE1225D416D500DB4640 /* Build configuration list for PBXProject "DominaBlackJack" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 758ACE0E25D416D500DB4640;
+			productRefGroup = 758ACE1825D416D500DB4640 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				758ACE1625D416D500DB4640 /* DominaBlackJack */,
+				758ACE2C25D416DA00DB4640 /* DominaBlackJackTests */,
+				758ACE3725D416DA00DB4640 /* DominaBlackJackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		758ACE1525D416D500DB4640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758ACE2725D416D900DB4640 /* LaunchScreen.storyboard in Resources */,
+				758ACE2425D416D900DB4640 /* Assets.xcassets in Resources */,
+				758ACE2225D416D500DB4640 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		758ACE2B25D416DA00DB4640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		758ACE3625D416DA00DB4640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		758ACE1325D416D500DB4640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758ACE1F25D416D500DB4640 /* ViewController.swift in Sources */,
+				758ACE1B25D416D500DB4640 /* AppDelegate.swift in Sources */,
+				758ACE1D25D416D500DB4640 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		758ACE2925D416DA00DB4640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758ACE3225D416DA00DB4640 /* DominaBlackJackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		758ACE3425D416DA00DB4640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758ACE3D25D416DA00DB4640 /* DominaBlackJackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		758ACE2F25D416DA00DB4640 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 758ACE1625D416D500DB4640 /* DominaBlackJack */;
+			targetProxy = 758ACE2E25D416DA00DB4640 /* PBXContainerItemProxy */;
+		};
+		758ACE3A25D416DA00DB4640 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 758ACE1625D416D500DB4640 /* DominaBlackJack */;
+			targetProxy = 758ACE3925D416DA00DB4640 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		758ACE2025D416D500DB4640 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				758ACE2125D416D500DB4640 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		758ACE2525D416D900DB4640 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				758ACE2625D416D900DB4640 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		758ACE3F25D416DA00DB4640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		758ACE4025D416DA00DB4640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		758ACE4225D416DA00DB4640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DominaBlackJack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adriangallardo.DominaBlackJack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		758ACE4325D416DA00DB4640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DominaBlackJack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adriangallardo.DominaBlackJack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		758ACE4525D416DA00DB4640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DominaBlackJackTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adriangallardo.DominaBlackJackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DominaBlackJack.app/DominaBlackJack";
+			};
+			name = Debug;
+		};
+		758ACE4625D416DA00DB4640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DominaBlackJackTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adriangallardo.DominaBlackJackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DominaBlackJack.app/DominaBlackJack";
+			};
+			name = Release;
+		};
+		758ACE4825D416DA00DB4640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DominaBlackJackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adriangallardo.DominaBlackJackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DominaBlackJack;
+			};
+			name = Debug;
+		};
+		758ACE4925D416DA00DB4640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DominaBlackJackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adriangallardo.DominaBlackJackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DominaBlackJack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		758ACE1225D416D500DB4640 /* Build configuration list for PBXProject "DominaBlackJack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				758ACE3F25D416DA00DB4640 /* Debug */,
+				758ACE4025D416DA00DB4640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		758ACE4125D416DA00DB4640 /* Build configuration list for PBXNativeTarget "DominaBlackJack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				758ACE4225D416DA00DB4640 /* Debug */,
+				758ACE4325D416DA00DB4640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		758ACE4425D416DA00DB4640 /* Build configuration list for PBXNativeTarget "DominaBlackJackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				758ACE4525D416DA00DB4640 /* Debug */,
+				758ACE4625D416DA00DB4640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		758ACE4725D416DA00DB4640 /* Build configuration list for PBXNativeTarget "DominaBlackJackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				758ACE4825D416DA00DB4640 /* Debug */,
+				758ACE4925D416DA00DB4640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 758ACE0F25D416D500DB4640 /* Project object */;
+}

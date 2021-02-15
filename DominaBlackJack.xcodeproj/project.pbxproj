@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75543E4A25D4FA3000901CD0 /* DBJClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75543E4925D4FA3000901CD0 /* DBJClient.swift */; };
+		75543E5A25D505FC00901CD0 /* DrawCardResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75543E5925D505FC00901CD0 /* DrawCardResponse.swift */; };
+		75543E6425D82A5A00901CD0 /* ShuffleDecksResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75543E6325D82A5900901CD0 /* ShuffleDecksResponse.swift */; };
+		7566C3DF25DABA3400FB76E5 /* ReshuffleCardsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7566C3DE25DABA3400FB76E5 /* ReshuffleCardsResponse.swift */; };
 		758ACE1B25D416D500DB4640 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758ACE1A25D416D500DB4640 /* AppDelegate.swift */; };
 		758ACE1D25D416D500DB4640 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758ACE1C25D416D500DB4640 /* SceneDelegate.swift */; };
 		758ACE1F25D416D500DB4640 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758ACE1E25D416D500DB4640 /* ViewController.swift */; };
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		75543E4925D4FA3000901CD0 /* DBJClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBJClient.swift; sourceTree = "<group>"; };
+		75543E5925D505FC00901CD0 /* DrawCardResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawCardResponse.swift; sourceTree = "<group>"; };
+		75543E6325D82A5900901CD0 /* ShuffleDecksResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuffleDecksResponse.swift; sourceTree = "<group>"; };
+		7566C3DE25DABA3400FB76E5 /* ReshuffleCardsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReshuffleCardsResponse.swift; sourceTree = "<group>"; };
 		758ACE1725D416D500DB4640 /* DominaBlackJack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DominaBlackJack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		758ACE1A25D416D500DB4640 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		758ACE1C25D416D500DB4640 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +84,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75543E5525D4FB9700901CD0 /* DBJClient */ = {
+			isa = PBXGroup;
+			children = (
+				75543E4925D4FA3000901CD0 /* DBJClient.swift */,
+			);
+			path = DBJClient;
+			sourceTree = "<group>";
+		};
+		75543E5E25D829A000901CD0 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				75543E5F25D82A0B00901CD0 /* Responses */,
+				75543E5525D4FB9700901CD0 /* DBJClient */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		75543E5F25D82A0B00901CD0 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				75543E5925D505FC00901CD0 /* DrawCardResponse.swift */,
+				75543E6325D82A5900901CD0 /* ShuffleDecksResponse.swift */,
+				7566C3DE25DABA3400FB76E5 /* ReshuffleCardsResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
 		758ACE0E25D416D500DB4640 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +134,14 @@
 		758ACE1925D416D500DB4640 /* DominaBlackJack */ = {
 			isa = PBXGroup;
 			children = (
+				75543E5E25D829A000901CD0 /* Networking */,
 				758ACE1A25D416D500DB4640 /* AppDelegate.swift */,
 				758ACE1C25D416D500DB4640 /* SceneDelegate.swift */,
 				758ACE1E25D416D500DB4640 /* ViewController.swift */,
 				758ACE2025D416D500DB4640 /* Main.storyboard */,
 				758ACE2325D416D900DB4640 /* Assets.xcassets */,
-				758ACE2525D416D900DB4640 /* LaunchScreen.storyboard */,
 				758ACE2825D416DA00DB4640 /* Info.plist */,
+				758ACE2525D416D900DB4640 /* LaunchScreen.storyboard */,
 			);
 			path = DominaBlackJack;
 			sourceTree = "<group>";
@@ -138,6 +174,7 @@
 				758ACE1325D416D500DB4640 /* Sources */,
 				758ACE1425D416D500DB4640 /* Frameworks */,
 				758ACE1525D416D500DB4640 /* Resources */,
+				75543E5125D4FB4300901CD0 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -253,14 +290,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		75543E5125D4FB4300901CD0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		758ACE1325D416D500DB4640 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				758ACE1F25D416D500DB4640 /* ViewController.swift in Sources */,
+				75543E6425D82A5A00901CD0 /* ShuffleDecksResponse.swift in Sources */,
+				75543E4A25D4FA3000901CD0 /* DBJClient.swift in Sources */,
 				758ACE1B25D416D500DB4640 /* AppDelegate.swift in Sources */,
 				758ACE1D25D416D500DB4640 /* SceneDelegate.swift in Sources */,
+				75543E5A25D505FC00901CD0 /* DrawCardResponse.swift in Sources */,
+				7566C3DF25DABA3400FB76E5 /* ReshuffleCardsResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
